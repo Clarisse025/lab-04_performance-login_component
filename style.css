@@ -1,0 +1,142 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Neutral background */
+}
+
+.login-form {
+    background-image: url('bg.png'); /* Background image for the login form */
+    background-size: cover; /* Ensure the image covers the form area */
+    background-position: center; /* Center the image */
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    color: white; /* Ensure text is visible on the image background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white; /* White text for better contrast on the background */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center; /* Center text and form controls */
+    padding-top: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white; 
+    text-align: left;
+    margin-left: 40px;
+}
+
+input {
+    width: 80%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn{
+    width: 50%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 auto; 
+    display: block; 
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+input[type="password"] {
+    padding-right: 50px;
+}
+
+.show-password-checkbox {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: gray;
+}
+
+.forget-password {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: right;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.btn {
+    border: 1px solid white; 
+    cursor: pointer;
+    background: transparent;
+    color: white; 
+}
+
+.login-btn {
+    margin-bottom: 15px;
+    background-color: #ffffff5b;
+    margin-top: -20px; 
+}
+
+.login-btn:hover {
+    background-color:#7b7b7b6b;
+}
+
+.register-section p {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.register-btn {
+    color: white; 
+    background-color: #ffffff58; 
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #7b7b7b6b;
+}
